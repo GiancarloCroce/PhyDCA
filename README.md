@@ -1,4 +1,6 @@
 # PhyloDCA
+PhyloDCA is Julia package that implements the inference of the *phylogenetic couplings* presented in the paper "A multi-scale coevolutionary approach to predict protein-protein
+interactions" by Giancarlo Croce, Thomas Gueudré, Maria Virginia Ruiz Cuevas, Matteo Figliuzzi, Hendrik Szurmant, Martin Weigt 
 
 PhyloDCA is a Julia-based tool for predicting functional and/or physical
 interactions among proteins domains from genome sequence.
@@ -12,13 +14,21 @@ others is under way.
 ### Supported Phylogenetic Distances
 * Hamming distance
 * Pearson Correlation
-* Mutual Information
 * pValue of the exact Fisher Test
 * Phylogenetic couplings of the Mean Field DCA
 * Phylogenetic couplings of the pseudo-likelihood DCA
 
 ```
 Give examples
+```
+fisrt method: NO tp set
+julia> phylodca("test/prova_phylo", mfDCA()) 
+
+second method: one tp set
+julia> phylodca("test/prova_phylo", mfDCA(),["test/tp_prova1"]) 
+or many tp set
+julia> phylodca("test/prova_phylo", mfDCA(),["test/tp_prova1",
+"test/tp_prova2"])
 ```
 
 ### Installing

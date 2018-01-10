@@ -115,21 +115,14 @@ end
 # add pseudocount
 ##################################################
 function add_pseudocount(Pi_true::Vector{Float64},Pij_true::Matrix{Float64},Meff::Float64,pc::Float64)
-    
+   
     N=length(Pi_true)
-    Pi=zeros(Pi_true)
-    Pij=zeros(Pij_true)
+    Pij=(1-pc) * Pij_true .+ pc/4
     for i = 1:N
-        for j = i:N
-            if(j==i)
-                Pi[i]=(1/(pc+Meff))*(pc/2 + Pi_true[i])
-                Pij[i,j]=(1/(pc+Meff))*(pc/2 + Pij_true[i,j])
-            else
-                Pij[i,j]=(1/(pc+Meff))*(pc/4 + Pij_true[i,j])
-                Pij[j,i]=Pij[i,j]
-            end
-        end
+        Pij[i,i] += pc/2
     end
+
+    Pi = ( 1 - pc ) * Pi_true .+ pc/2
     return Pi, Pij
 end
 

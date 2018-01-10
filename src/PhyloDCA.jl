@@ -5,8 +5,6 @@ using GaussDCA
 using PlmDCA
 using PyPlot
 
-using HypothesisTests 
-
 export 
 	#phylogenetic distance class
 	Hamming,
@@ -24,6 +22,7 @@ export
 
 include("io.jl")
 include("types.jl")
+include("fisher.jl")
 include("commonDCA.jl") #tools for DCA inference, both for mfDCA and plmDCA
 
 
@@ -35,7 +34,7 @@ function phylodca(filename_phylo::AbstractString,
 		  dist::UnionDistances)
 
 	@printf("%s", "Computing phylogenetic matrix...")
-	P,domains,species=make_phylo_profile(filename_phylo)
+	P,species,domains=make_phylo_profile(filename_phylo)
 	@printf("%s\n", "done")
 
 	@printf("%s", "Computing distance matrix...")
@@ -43,11 +42,11 @@ function phylodca(filename_phylo::AbstractString,
 	@printf("%s\n", "done")
 
 	@printf("%s\n", "Sorting domain-pairs by their phylogenetic distance")
-	final=compute_final_matrix(dist_matr,domains, dist)
+    final_unsort, final_sorted=compute_final_matrix(dist_matr,domains, dist)
 
-	print_result(final)
+	print_result(final_sorted)
 
-	x=PhyloOut(P,domains,species,dist_matr,final)
+    x=PhyloOut(P,domains,species,dist_matr,final_unsort, final_sorted)
 	return x 
 end
 
@@ -55,20 +54,21 @@ end
 #method 2: one (or more) file(s) containing kwnon functional relation is given
 function phylodca(filename_phylo::AbstractString,
 		  dist::UnionDistances,
-		  known_relations::Vararg{AbstractString}) #VarArg allows variable number of inputs
+          known_relations::Array{String,1}) #VarArg allows variable number of inputs
 
 	@printf("%s", "Computing phylogenetic matrix...")
-	P,domains,species=make_phylo_profile(filename_phylo)
+	P,species,domains=make_phylo_profile(filename_phylo)
 	@printf("%s\n", "done")
 
 	@printf("%s\n", "Computing distance matrix...")
 	dist_matr=compute_distance_matrix(P,dist)
 
 	@printf("%s\n", "Sorting domain-pairs by their phylogenetic couplings")
-	final=compute_final_matrix(dist_matr,domains, dist,known_relations)
-	print_result(final)
+    final_unsort, final_sorted=compute_final_matrix(dist_matr,domains, dist,known_relations)
 
-	x=PhyloOut(P,domains,species,dist_matr,final)
+	print_result(final_sorted)
+
+    x=PhyloOut(P,domains,species,dist_matr,final_unsort, final_sorted)
 	return x
 end
 
@@ -117,14 +117,14 @@ function compute_final_matrix(distance_matrix::Matrix{Float64},
 
 	res_matr=make_result_matrix(distance_matrix,list_domains)
 	sort_res_matr=sort_matrix(res_matr,dist)
-	return sort_res_matr
+	return res_matr,sort_res_matr
 end
 
 #method 2: one (or more) file(s) containing kwnown functional relations is given
 function compute_final_matrix(distance_matrix::Matrix{Float64},
 			      list_domains::Array{String},
 			      dist::UnionDistances,
-			      bench_filenames::Vararg{AbstractString}) #VarArg allows variable number of inputs
+                  bench_filenames::Array{String,1}) #Vararg allows variable number of inputs
 
 	res_matr=make_result_matrix(distance_matrix,list_domains)
 
@@ -134,7 +134,7 @@ function compute_final_matrix(distance_matrix::Matrix{Float64},
 	end
 
 	sort_res_matr=sort_matrix(res_matr,dist)
-	return sort_res_matr
+	return res_matr,sort_res_matr
 end
 
 
@@ -227,14 +227,25 @@ function add_benchmark(result_matrix::Matrix,
 		tot=size(result_matrix)[1]
 		vec_bench=zeros(Int,tot)
 		Nb=size(bench)[1]
+        
+        if(size(bench)[2]!=2)
+            error("knwon relations must be pairwise")
+        end
+
 		num_domains=size(list_domains)[1]
+        dict_dom = Dict(list_domains[i] => i for i=1:length(list_domains))
+
 		for i=1:Nb
 			dom1=bench[i,1]
 			dom2=bench[i,2]
-			pos1=find(dom1.==list_domains)[1]
-			pos2=find(dom2.==list_domains)[1]
-            if(length(pos1)>0 && length(pos2)>0)
-                vec_bench[offset(pos1,pos2,num_domains)]=1
+            if ( haskey(dict_dom, dom1) && haskey(dict_dom, dom2))
+                pos1 = dict_dom[dom1]
+                pos2 = dict_dom[dom2]
+                if(pos1<pos2)
+                    vec_bench[offset(pos1,pos2,num_domains)]=1
+                else
+                    vec_bench[offset(pos2,pos1,num_domains)]=1
+                end
             end
 		end
 

@@ -71,23 +71,17 @@ end
 ##################################################
 
 function print_result(final_matrix::Matrix)
-	result_file=open("results.ccs", "w")
+	result_file=open("results.dat", "w")
 
 	lungh,num=size(final_matrix)
-	if(num>3) 
-		for i=1:lungh
-			@printf(result_file,"%s %s %f", final_matrix[i,1], final_matrix[i,2], final_matrix[i,3])
-			for k=3:num
-				@printf(result_file, " %d", final_matrix[i,k])
-			end
-			@printf(result_file, "\n")
-		end
-	else
-		for i=1:lungh
-			@printf(result_file,"%s %s %f \n", final_matrix[i,1], final_matrix[i,2], final_matrix[i,3])
-		end
-	end
-	close(result_file)
+    for i=1:lungh
+        @printf(result_file,"%s %s %f ", final_matrix[i,1], final_matrix[i,2], final_matrix[i,3])
+        for k=4:num
+            @printf(result_file, " %d ", final_matrix[i,k])
+        end
+        @printf(result_file, "\n")
+    end
+    close(result_file)
 end
 
 
