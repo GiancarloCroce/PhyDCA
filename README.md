@@ -1,4 +1,3 @@
-
 # PhyloDCA
 
 ----
@@ -12,11 +11,11 @@ The **phylogenetic profiling** is a classic bioinformatics technique in which:
 
 see [Phylogenetic profiling](https://en.wikipedia.org/wiki/Phylogenetic_profiling).
 
-We revisit the classical ideas of **phylogenetic profiling**, and introduce the novel concept of **phylogenetic couplings**, which can be estimated via a statistical-physics inspired global statistical modelling approach ( taking inspiration by *direct coupling analysis* [DCA](https://en.wikipedia.org/wiki/Direct_coupling_analysis) )
+We revisit the classical ideas of **phylogenetic profiling** by introducing the novel concept of **phylogenetic couplings**, which can be estimated via a global statistical modelling approach ( taking inspiration by *direct coupling analysis* [DCA](https://en.wikipedia.org/wiki/Direct_coupling_analysis) )
 
 The following Figure shows a  schematic representation of the inference of phylogenetic couplings
 
-![alt text](https://github.com/GiancarloCroce/PhyloDCA/figure_1.png )
+![figure_method](https://github.com/GiancarloCroce/PhyloDCA/blob/master/figure_1.png)
 
 
 
@@ -32,7 +31,7 @@ To install the package run *'julia'* in the terminal and type the command
 
 ## Input file 
 
-The first step is to prepare the input file in the right format. Two format are supported at the moment:
+The first step is to prepare the input file in the right format. Two formats are supported at the moment:
 
 ### 1) Genomes in terms of protein families 
 
@@ -101,5 +100,6 @@ For the sake of comparison several Phylogenetic distances have been included in 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 
 
