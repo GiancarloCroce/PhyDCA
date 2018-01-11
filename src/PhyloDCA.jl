@@ -29,9 +29,37 @@ include("commonDCA.jl") #tools for DCA inference, both for mfDCA and plmDCA
 ########################################
 # MAIN FUNCTIONS
 ########################################
-#method 1, no file containing knwon functional relations is given
+#method 1,  directly the phylogenetic matrix (MxN) file containing knwon functional relations is given
+function phylodca_matrix(filename_phyloMatrix::AbstractString,
+                         dist::UnionDistances)
+
+    P = readdlm(filename_phyloMatrix)
+    P = Array{Int8}(P)
+    M,N = size(P)
+    
+    sss = collect(1:M)
+    species = [string(sss[i]) for i =1:M]
+    ddd= collect(1:N)
+    domains= [string(ddd[i]) for i =1:N]
+
+
+	@printf("%s", "Computing distance matrix...")
+	dist_matr=compute_distance_matrix(P,dist)
+	@printf("%s\n", "done")
+
+	@printf("%s\n", "Sorting domain-pairs by their phylogenetic distance")
+    final_unsort, final_sorted=compute_final_matrix(dist_matr,domains, dist)
+
+	#print_result(final_sorted)
+
+    x=PhyloOut(P,domains,species,dist_matr,final_unsort, final_sorted)
+	return x 
+end
+
+
+#method 2, no file containing known functional relations is given
 function phylodca(filename_phylo::AbstractString,
-		  dist::UnionDistances)
+                  dist::UnionDistances)
 
 	@printf("%s", "Computing phylogenetic matrix...")
 	P,species,domains=make_phylo_profile(filename_phylo)
@@ -44,31 +72,31 @@ function phylodca(filename_phylo::AbstractString,
 	@printf("%s\n", "Sorting domain-pairs by their phylogenetic distance")
     final_unsort, final_sorted=compute_final_matrix(dist_matr,domains, dist)
 
-	print_result(final_sorted)
+	#print_result(final_sorted)
 
     x=PhyloOut(P,domains,species,dist_matr,final_unsort, final_sorted)
 	return x 
 end
 
 
-#method 2: one (or more) file(s) containing kwnon functional relation is given
+#method 3: one (or more) file(s) containing known functional relation is given
 function phylodca(filename_phylo::AbstractString,
 		  dist::UnionDistances,
           known_relations::Array{String,1}) #VarArg allows variable number of inputs
 
 	@printf("%s", "Computing phylogenetic matrix...")
-	P,species,domains=make_phylo_profile(filename_phylo)
+	P,species,domains = make_phylo_profile(filename_phylo)
 	@printf("%s\n", "done")
 
 	@printf("%s\n", "Computing distance matrix...")
-	dist_matr=compute_distance_matrix(P,dist)
+	dist_matr = compute_distance_matrix(P,dist)
 
 	@printf("%s\n", "Sorting domain-pairs by their phylogenetic couplings")
-    final_unsort, final_sorted=compute_final_matrix(dist_matr,domains, dist,known_relations)
+    final_unsort, final_sorted = compute_final_matrix(dist_matr,domains, dist,known_relations)
 
-	print_result(final_sorted)
+	#print_result(final_sorted)
 
-    x=PhyloOut(P,domains,species,dist_matr,final_unsort, final_sorted)
+    x = PhyloOut(P,domains,species,dist_matr,final_unsort, final_sorted)
 	return x
 end
 
@@ -83,8 +111,8 @@ end
 ##############################
 function make_phylo_profile(filename::AbstractString)
 
-	list_species,list_domains=readData(filename)
-	P=makePhyloMatrix(filename, list_species,list_domains)
+	list_species,list_domains = readData(filename)
+	P = makePhyloMatrix(filename, list_species,list_domains)
 
 	#PLOT phylogenetic matrix.... not a good idea...
 
@@ -104,7 +132,7 @@ function compute_distance_matrix(P::Matrix{Int8},
 
 	!isa(P,Matrix) && error("Phlogenetic Matrix not given")
 
-	dist_matrix=evaluate_distance(dist,P)
+	dist_matrix = evaluate_distance(dist,P)
 end
 
 ############################################################

@@ -48,7 +48,8 @@ function evaluate_distance(::Correlation,
 end
 
 ########################################
-## to implement MI
+# MUTUAL INFORMATION
+## to be implemented
 #function evaluate_distance(::MutualInfo,
 #                           P::Matrix{Int8})
 #	P = ones(P)*2 - P
@@ -152,21 +153,23 @@ end
 function evaluate_distance(::plmDCA,
                           P::Matrix{Int8})
 
-    lambdaJ::Real=0.02
-    lambdaH::Real=0.05
+    lambdaJ::Real = 0.02
+    lambdaH::Real = 0.05
     theta = 0.2
-    epsconv::Real=1.0e-5
-    maxit::Int=1000
+    epsconv::Real = 1.0e-5
+    maxit::Int = 1000
     min_separation::Int = 1
-    verbose::Bool=true
-    method::Symbol=:LD_LBFGS 
-    boolmask::Union{Array{Bool,2},Void}=nothing
-    gaugecol::Int=-1
+    verbose::Bool = true
+    method::Symbol = :LD_LBFGS 
+    boolmask::Union{Array{Bool,2},Void} = nothing
+    gaugecol::Int = -1
     
-	P=ones(P)*2-P
-    Z=Array{Int8}(P')
+    M,N = size(P)
 
-	N, M = size(Z)
+	P = ones(P)*2-P
+
+    Z = Array{Int8}(P)
+
 	q = Int(maximum(Z))
 
 	Pi_true, Pij_true, Meff, W = compute_new_frequencies(Z, theta)
@@ -178,7 +181,7 @@ function evaluate_distance(::plmDCA,
 	
 	S = correct_APC(J)
 	#remove diagonal elements (fields...)
-	S-=Diagonal(S)
+	S-= Diagonal(S)
 
 	return S 
 
@@ -189,44 +192,44 @@ function switch_gauge(Jmat::Array{Float64,2}, var, min_separation::Int)
     q = var.q
     N = var.N
 
-    JJ=reshape(Jmat[1:end-q,:], q,q,N-1,N)
-    Jtemp1=zeros( q,q,Int(N*(N-1)/2))
-    Jtemp2=zeros( q,q,Int(N*(N-1)/2))
+    JJ = reshape(Jmat[1:end-q,:], q,q,N-1,N)
+    Jtemp1 = zeros( q,q,Int(N*(N-1)/2))
+    Jtemp2 = zeros( q,q,Int(N*(N-1)/2))
     
     l = 1
 
-    for i=1:(N-1)
-        for j=(i+1):N
-            Jtemp1[:,:,l]=JJ[:,:,j-1,i]; #J_ij as estimated from from g_i.
-            Jtemp2[:,:,l]=JJ[:,:,i,j]'; #J_ij as estimated from from g_j.
+    for i = 1:(N-1)
+        for j = (i+1):N
+            Jtemp1[:,:,l] = JJ[:,:,j-1,i]; #J_ij as estimated from from g_i.
+            Jtemp2[:,:,l] = JJ[:,:,i,j]'; #J_ij as estimated from from g_j.
             l=l+1;
         end
     end
 
-    J1=zeros(q,q,Int(N*(N-1)/2))
-    J2=zeros(q,q,Int(N*(N-1)/2))
+    J1 = zeros(q,q,Int(N*(N-1)/2))
+    J2 = zeros(q,q,Int(N*(N-1)/2))
 
 
     #switch to Ising gauge
-    for l=1:Int(N*(N-1)/2)
-        J1[:,:,l] = Jtemp1[:,:,l]-repmat(mean(Jtemp1[:,:,l],1),q,1)-repmat(mean(Jtemp1[:,:,l],2),1,q) .+ mean(Jtemp1[:,:,l])
-        J2[:,:,l] = Jtemp2[:,:,l]-repmat(mean(Jtemp2[:,:,l],1),q,1)-repmat(mean(Jtemp2[:,:,l],2),1,q) .+ mean(Jtemp2[:,:,l])
+    for l = 1:Int(N*(N-1)/2)
+        J1[:,:,l] = Jtemp1[:,:,l] - repmat(mean(Jtemp1[:,:,l],1),q,1) -repmat(mean(Jtemp1[:,:,l],2),1,q) .+ mean(Jtemp1[:,:,l])
+        J2[:,:,l] = Jtemp2[:,:,l] - repmat(mean(Jtemp2[:,:,l],1),q,1) -repmat(mean(Jtemp2[:,:,l],2),1,q) .+ mean(Jtemp2[:,:,l])
     end
     J = 0.5 * ( J1 + J2 )
 
 
     #switch to lattice-gas model
-    lattice_gas_J=zeros(N,N)
+    lattice_gas_J = zeros(N,N)
     l = 1
     for i = 1:N-1
-        for j=i+1:N
+        for j = i+1:N
 		lattice_gas_J[i,j] = J[1,1,l]-J[1,2,l]-J[2,1,l]+J[2,2,l]
 		l += 1
         end
     end
     
 
-    lattice_gas_J+=lattice_gas_J'
+    lattice_gas_J += lattice_gas_J'
 
     return lattice_gas_J
 end

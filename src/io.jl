@@ -2,20 +2,20 @@ function readData(filename::AbstractString)
 
     !isfile(filename) && error("Input file not found")
 
-	phylo_profile=open(filename)
-	list_species=String[]
-	list_domains=String[]
+	phylo_profile = open(filename)
+	list_species = String[]
+	list_domains = String[]
 	for line in eachline(phylo_profile)
-		data=(split(chomp(line)))
-		N=length(data)
-		for k=1:N
-			if(k==1)
-				if(in(data[k],list_species)==false)
+		data = (split(chomp(line)))
+		N = length(data)
+		for k = 1:N
+			if(k == 1)
+				if(in(data[k],list_species) == false)
 					push!(list_species,data[k])
 				end
 				
 			else
-				if(in(data[k],list_domains)==false)
+				if(in(data[k],list_domains) == false)
 					push!(list_domains,data[k])
 				end
 			end
@@ -24,12 +24,13 @@ function readData(filename::AbstractString)
 	close(phylo_profile)
 	sort!(list_species)
 	sort!(list_domains)
+
 	return list_species,list_domains
 end
 
 function makePhyloMatrix(filename::AbstractString,
-			 list_species_ord,
-			 list_domains_ord)
+                         list_species_ord,
+                         list_domains_ord)
 
 	#N=number of domains, M=number of species
 	M=length(list_species_ord)

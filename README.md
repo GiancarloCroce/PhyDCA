@@ -1,67 +1,105 @@
+
 # PhyloDCA
-PhyloDCA is Julia package that implements the inference of the *phylogenetic couplings* presented in the paper "A multi-scale coevolutionary approach to predict protein-protein
-interactions" by Giancarlo Croce, Thomas Gueudré, Maria Virginia Ruiz Cuevas, Matteo Figliuzzi, Hendrik Szurmant, Martin Weigt 
 
-PhyloDCA is a Julia-based tool for predicting functional and/or physical
-interactions among proteins domains from genome sequence.
-See article ...
+----
 
-## Getting Started
+**PhyloDCA** is *Julia* package that implements the inference of the *phylogenetic couplings* presented in the paper *"A multi-scale coevolutionary approach to predict protein-protein
+interactions"* by Giancarlo Croce, Thomas Gueudré, Maria Virginia Ruiz Cuevas, Matteo Figliuzzi, Hendrik Szurmant, Martin Weigt.
 
-Several methods and datasets have been integrated already and inclusion of
-others is under way.
+The **phylogenetic profiling** is a classic bioinformatics technique in which:
 
-### Supported Phylogenetic Distances
-* Hamming distance
-* Pearson Correlation
-* pValue of the exact Fisher Test
-* Phylogenetic couplings of the Mean Field DCA
-* Phylogenetic couplings of the pseudo-likelihood DCA
+> the joint presence or joint absence of two traits across large numbers of species is used to infer a meaningful biological connections
+
+see [Phylogenetic profiling](https://en.wikipedia.org/wiki/Phylogenetic_profiling).
+
+We revisit the classical ideas of **phylogenetic profiling**, and introduce the novel concept of **phylogenetic couplings**, which can be estimated via a statistical-physics inspired global statistical modelling approach ( taking inspiration by *direct coupling analysis* [DCA](https://en.wikipedia.org/wiki/Direct_coupling_analysis) )
+
+The following Figure shows a  schematic representation of the inference of phylogenetic couplings
+
+![alt text](https://github.com/GiancarloCroce/PhyloDCA/figure_1.png )
+
+
+
+
+## Installation
+To install the package run *'julia'* in the terminal and type the command
 
 ```
-Give examples
-```
-fisrt method: NO tp set
-julia> phylodca("test/prova_phylo", mfDCA()) 
-
-second method: one tp set
-julia> phylodca("test/prova_phylo", mfDCA(),["test/tp_prova1"]) 
-or many tp set
-julia> phylodca("test/prova_phylo", mfDCA(),["test/tp_prova1",
-"test/tp_prova2"])
+    julia>Pkg.clone("https://github.com/GiancarloCroce/PhyloDCA")
 ```
 
-### Installing
+---
 
-It requires the installation of:
+## Input file 
 
-* [NLopt.jl](https://github.com/JuliaOpt/NLopt.jl). 
-```
-julia> Pkg.add("NLopt")
-```
-* [GaussDCA](https://github.com/carlobaldassi/GaussDCA.jl)
-julia> Pkg.clone("https://github.com/carlobaldassi/GaussDCA.jl")
-```
-* [PlmDCA](https://github.com/pagnani/PlmDCA.jl)
-julia> Pkg.clone(GaussDCA"https://github.com/pagnani/PlmDCA.jl")
-```
+The first step is to prepare the input file in the right format. Two format are supported at the moment:
+
+### 1) Genomes in terms of protein families 
+
+In this case you need to construct a file with the composition of genomes in terms of protein families: the first column of the file must be the name of the species, while the columns contains the proteins families included in the genome.
+
+For example the file *"test/phylo_data_ecoli.txt"* has the following structure:
+
+    ACAM1       PF00011 PF00011 PF00023 PF00027 PF00034 PF00011 PF00042 PF00043
+    ACCPU       PF00011 PF00015 PF00027 PF00034 PF00037
+    ....
+    ZINIC       PF00037 PF00109 PF00111 PF00115 PF00116 PF00146
+
+
+### 2) Phylogenetic profile matrix
+It is also possible to give as input file directly the **phylogenetic
+profile matrix** : a binary matrix *P* whose entries capture the presence
+*(Pij = 1)* or absence *(Pij = 0)* of a domain across genomes, with *i = 1, . . . , M*
+(the number of genomes) and *j = 1, . . . , N* (the number of domains). Consequently, each domain (the columns of the PPM) is represented by a long binary number with a digit for each genome.
+See, as an example, the file *"test/phylo_matrix_ecoli.txt"*.
+
 
 ## Usage
-bla bla bla
 
+A real documentation is not available yet, but we report here some usage examples to get started.
 
-## Output
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+To run the program type 'julia' in the terminal and load the module:
 
 ```
-Give an example
+    julia> using PhyloDCA
 ```
+
+The software provides two main functions ```phylodca(filename_data::String, PhyloDCA.PhylogenticDistance)``` if the input file *"filename_data"* is in the first format  and ```phylodca_matrix(filename_matrix::String, PhyloDCA.PhylogenticDistance)``` if the input file *"filename_matrix"* is a Phylogenetic Profile Matrix.
+
+
+
+Next is to decide which Phylogenetic Distances we want to use for the analysis (a list of all supported Phylogenetic Distances is in the next section). 
+
+For example if we want to use the "phylogenetic couplings inferred with mean field DCA", then run
+
+```
+    julia> ecoli_results = phylodca("phylo_data_ecoli.txt",mfDCA()) 
+```
+
+
+
+### Output
+The output "ecoli_results" is a type PhyloDCA.PhyloOut  with 6 fields:
+
+* **list_domains**: a list of all proteins families
+* **list_species**: a list of all species 
+* **PhyloProfile**: the phylogenetic profile matrix
+* **PhyloDistance**: the distance matrix between protein domains
+* **result_sorted**: a (String, String, Float)  vector containing the candidate candidate domain-domain connections in descending order
+* **result_unsort**: a (String, String, Float)  vector containing the candidate candidate domain-domain connections not sorted
+
+
+### Supported Phylogenetic Distances
+For the sake of comparison several Phylogenetic distances have been included in the code:
+
+* Hamming distance [ Hamming() ] 
+* Pearson Correlation [ Correlation() ] 
+* pValue of the exact Fisher Test  [ pValue() ] 	
+* Phylogenetic couplings from the Mean Field DCA [ mfDCA() ]
+* Phylogenetic couplings from the pseudo-likelihood DCA [ plmDCA() ]
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+

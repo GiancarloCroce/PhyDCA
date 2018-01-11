@@ -33,22 +33,22 @@ end
 
 function compute_weigths(P::Matrix{Int8}, theta::Real)
 
-    M,N=size(P)
-    W=ones(M)
+    M,N = size(P)
+    W = ones(M)
 
-    theta= Float64(theta)
+    theta = Float64(theta)
     @printf("%s%0.2f ",  "theta=",theta)
 
-    if theta==0
+    if theta == 0
         @printf("%s%d%s%d%s%d\n","M=",M," N=",N," Meff=",M)
         return W, Float64(M)
     end
 
 
-    ZZ=Vector{Int8}[vec(P[i,:]) for i=1:M]
-    @simd for i=1:M
-        Zi=ZZ[i]
-        @simd for j=(i+1):M
+    ZZ = Vector{Int8}[vec(P[i,:]) for i=1:M]
+    @simd for i = 1:M
+        Zi = ZZ[i]
+        @simd for j = (i+1):M
             Zj=ZZ[j]
             #if sequence has distance < threshold -> increase weight
             if hamming_distance(Zi,Zj)<theta 
@@ -62,7 +62,7 @@ function compute_weigths(P::Matrix{Int8}, theta::Real)
         W[i] = 1 / W[i]
     end 
 
-    Meff=sum(W)
+    Meff = sum(W)
 
     @printf("%s%d%s%d%s%0.2f\n","M=",M," N=",N," Meff=",Meff)
 
@@ -75,38 +75,38 @@ end
 
 # W is the vector of weights
 function compute_freqs(P::Matrix{Int8}, W::Vector{Float64}, Meff::Float64)
-    M,N=size(P)
-    ZZ=Vector{Int8}[vec(P[:,i]) for i=1:N]
+    M,N = size(P)
+    ZZ = Vector{Int8}[vec(P[:,i]) for i=1:N]
 
-    Pij=zeros(N,N)
-    Pi=zeros(N)
-    for i=1:N
-        Zi=ZZ[i]
-        for j=i:N
-            Zj=ZZ[j]
-            for k=1:M
-                Pij[i,j]+=W[k]*Zi[k]*Zj[k]
+    Pij = zeros(N,N)
+    Pi = zeros(N)
+    for i = 1:N
+        Zi = ZZ[i]
+        for j = i:N
+            Zj = ZZ[j]
+            for k = 1:M
+                Pij[i,j] += W[k]*Zi[k]*Zj[k]
             end
         end
     end
 
     
-    for i=1:N 
-        Pij[i,i]/=Meff
-        for j=(i+1):N
-            Pij[i,j]/=Meff
-            Pij[j,i]=Pij[i,j]
+    for i = 1:N 
+        Pij[i,i] /= Meff
+        for j = (i+1):N
+            Pij[i,j] /= Meff
+            Pij[j,i] = Pij[i,j]
         end
     end
         
-     Pi=diag(Pij)
+     Pi = diag(Pij)
     return Pi,Pij
 end
 
 function compute_new_frequencies(P::Matrix{Int8},theta::Real)
 
-    W,Meff=compute_weigths(P,theta)
-    Pi_t,Pij_t=compute_freqs(P,W,Meff)
+    W,Meff = compute_weigths(P,theta)
+    Pi_t,Pij_t = compute_freqs(P,W,Meff)
 
     return Pi_t,Pij_t,Meff,W
 end
@@ -116,8 +116,8 @@ end
 ##################################################
 function add_pseudocount(Pi_true::Vector{Float64},Pij_true::Matrix{Float64},Meff::Float64,pc::Float64)
    
-    N=length(Pi_true)
-    Pij=(1-pc) * Pij_true .+ pc/4
+    N = length(Pi_true)
+    Pij = (1-pc) * Pij_true .+ pc/4
     for i = 1:N
         Pij[i,i] += pc/2
     end
