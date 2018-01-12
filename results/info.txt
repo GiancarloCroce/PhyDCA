@@ -1,0 +1,38 @@
+############################################################
+PhyloDCA analysis applied to all 9358 families containing bacterial protein domains.
+Phylogenetic matrix has dimension 1041 x 9358
+############################################################
+  - ALLBACTERIA_phyloDCA_results.txt :
+          the first 1000 domain-domain predicted interactions, their phylogenetic couplings and if they are in the positive-relation dataset
+
+  - ALLBACTERIA_NegativeCouplings_phyloDCA_results.txt:
+          the 100 most negative domain-domain interaction
+
+  - ALLBACTERIA_DCA_scores.txt:
+          the paralog-matching DCA results for the 200 most coupled domain pairs, which are not in the positive-relation dataset
+
+
+############################################################
+PhyloDCA analysis applied to the 2041 domain families existing inside the K12 strain
+of E. coli
+Phylogenetic matrix has dimension 1041 x 2041
+############################################################
+  - ECOLI_phyloDCA_results.txt
+          the first 1000 domain-domain predicted interactions, their phylogenetic couplings and if they are in the ECOLI positive-relation dataset
+
+  - ECOLI_DCA_score.txt:
+          the paralog-matching DCA results for the 500 most coupled domain pairs, which are not in the positive-relation dataset
+
+
+############################################################
+PhyloDCA analysis applied to the 5343 domains existing inside in human genome
+Phylogenetic matrix has dimension 481 x 5343
+############################################################
+  - HUMAN_phyloDCA_results.txt
+          the first 1000 domain-domain predicted interactions, their phylogenetic couplings and if they are in the positive-relation dataset
+
+  - ALLBACTERIA_NegativeCouplings_phyloDCA_results.txt:
+  - HUMAN_DCA_scores.txt
+          the paralog-matching DCA results for the 200 most coupled domain pairs, which are not in the positive-relation dataset
+
+

@@ -49,7 +49,10 @@ For example the file *"test/phylo_data_ecoli.txt"* has the following structure:
 It is also possible to give as input file directly the **phylogenetic
 profile matrix** : a binary matrix *P* whose entries capture the presence
 *(Pij = 1)* or absence *(Pij = 0)* of a domain across genomes, with *i = 1, . . . , M*
-(the number of genomes) and *j = 1, . . . , N* (the number of domains). Consequently, each domain (the columns of the PPM) is represented by a long binary number with a digit for each genome.
+(the number of genomes) and *j = 1, . . . , N* (the number of domains). 
+
+Consequently, each domain (the columns of the PPM) is represented by a long binary number with a digit for each genome.
+
 See, as an example, the file *"test/phylo_matrix_ecoli.txt"*.
 
 
