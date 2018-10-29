@@ -1,0 +1,201 @@
+#dom1	dom2	Meff	DCA_score	dom1_description	dom2_description
+PF00510	PF02790	42.82421978549347	.26039770921311395	Cytochrome c oxidase subunit III	Cytochrome C oxidase subunit II, transmembrane domain
+PF00033	PF00116	53.29425401505833	.250929350441493	Cytochrome b/b6/petB	Cytochrome C oxidase subunit II, periplasmic domain
+PF00032	PF00119	39.01201578453015	.1901807192711002	Cytochrome b(C-terminal)/b6/petD	ATP synthase A chain
+PF00032	PF00116	56.431929996525035	.1926035616102731	Cytochrome b(C-terminal)/b6/petD	Cytochrome C oxidase subunit II, periplasmic domain
+PF00116	PF00146	44.99461395437563	.17752896927420378	Cytochrome C oxidase subunit II, periplasmic domain	NADH dehydrogenase
+PF00499	PF00510	38.07434709156603	.13880460589102483	NADH-ubiquinone/plastoquinone oxidoreductase chain 6	Cytochrome c oxidase subunit III
+PF00116	PF00119	46.97209396582713	.1563109742238383	Cytochrome C oxidase subunit II, periplasmic domain	ATP synthase A chain
+PF00119	PF02790	33.70097732466836	.19318784111004222	ATP synthase A chain	Cytochrome C oxidase subunit II, transmembrane domain
+PF00499	PF02790	36.29021599263229	.1777191939400096	NADH-ubiquinone/plastoquinone oxidoreductase chain 6	Cytochrome C oxidase subunit II, transmembrane domain
+PF00146	PF00510	40.66553831983364	.21773701260570555	NADH dehydrogenase	Cytochrome c oxidase subunit III
+PF00115	PF00146	41.36024513438181	.19582217105963223	Cytochrome C and Quinol oxidase polypeptide I	NADH dehydrogenase
+PF00499	PF00507	40.33297172635058	.1294526110713831	NADH-ubiquinone/plastoquinone oxidoreductase chain 6	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3
+PF00146	PF00662	29.019432168852333	.26706524520459135	NADH dehydrogenase	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+PF00507	PF00662	37.92488112210349	.29004900682212426	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+PF00119	PF00420	33.01800386555277	.1598360714103297	ATP synthase A chain	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L
+PF00033	PF02790	40.42871034659277	.19076164854338554	Cytochrome b/b6/petB	Cytochrome C oxidase subunit II, transmembrane domain
+PF00119	PF00507	40.53039955123443	.18387673778061572	ATP synthase A chain	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3
+PF02676	PF08608	122.93502786812846	.17759350236963495	Methyltransferase TYW3	Wyosine base formation
+PF00032	PF00662	34.297765863432055	.2319966237173071	Cytochrome b(C-terminal)/b6/petD	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+PF00119	PF00510	47.408031579694786	.16001269706914029	ATP synthase A chain	Cytochrome c oxidase subunit III
+PF00033	PF00361	44.893405329480785	.1640227357512862	Cytochrome b/b6/petB	Proton-conducting membrane transporter
+PF00032	PF00361	28.621874355849602	.2312802870617994	Cytochrome b(C-terminal)/b6/petD	Proton-conducting membrane transporter
+PF00115	PF00662	25.367012119548157	.24977438334614277	Cytochrome C and Quinol oxidase polypeptide I	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+PF00033	PF00507	49.58705294695206	.17238005905428533	Cytochrome b/b6/petB	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3
+PF00032	PF00507	45.76589981714624	.17818235378047276	Cytochrome b(C-terminal)/b6/petD	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3
+PF00146	PF02790	35.46806444772662	.22088795038715262	NADH dehydrogenase	Cytochrome C oxidase subunit II, transmembrane domain
+PF00499	PF06455	31.289326255324372	.1314506601916188	NADH-ubiquinone/plastoquinone oxidoreductase chain 6	NADH dehydrogenase subunit 5 C-terminus
+PF00146	PF06455	39.65247479129057	.1703288101074366	NADH dehydrogenase	NADH dehydrogenase subunit 5 C-terminus
+PF00507	PF02790	38.68762642616003	.26513039893923673	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3	Cytochrome C oxidase subunit II, transmembrane domain
+PF09668	PF12009	125.12938728786429	.1661535007135774	Aspartyl protease	Telomerase ribonucleoprotein complex - RNA binding domain
+PF00032	PF00420	36.406352343559526	.20590119047369831	Cytochrome b(C-terminal)/b6/petD	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L
+PF00420	PF02790	28.2541423005278	.21715867573870895	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L	Cytochrome C oxidase subunit II, transmembrane domain
+PF00146	PF00507	41.74742201113434	.17646112283544652	NADH dehydrogenase	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3
+PF00119	PF00662	32.62188088626221	.16850251067100386	ATP synthase A chain	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+PF00115	PF00119	39.16818741925415	.17952268775958907	Cytochrome C and Quinol oxidase polypeptide I	ATP synthase A chain
+PF00032	PF02790	38.286241448311905	.218995116292863	Cytochrome b(C-terminal)/b6/petD	Cytochrome C oxidase subunit II, transmembrane domain
+PF00119	PF00499	32.799405846116436	.13140035040118386	ATP synthase A chain	NADH-ubiquinone/plastoquinone oxidoreductase chain 6
+PF00115	PF00507	34.34735233964493	.17549758765561693	Cytochrome C and Quinol oxidase polypeptide I	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3
+PF00146	PF00420	32.84922723331547	.19648039529618366	NADH dehydrogenase	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L
+PF00119	PF00361	31.990069985409928	.1606605248906911	ATP synthase A chain	Proton-conducting membrane transporter
+PF00420	PF06455	36.44907443347846	.14639453404980857	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L	NADH dehydrogenase subunit 5 C-terminus
+PF00116	PF00499	47.014955898748305	.16961421772915444	Cytochrome C oxidase subunit II, periplasmic domain	NADH-ubiquinone/plastoquinone oxidoreductase chain 6
+PF00033	PF00662	33.29342235122449	.21499974031020688	Cytochrome b/b6/petB	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+PF00037	PF01020	60.228449418726726	.3299808691121834	4Fe-4S binding domain	Ribosomal L40e family
+PF00115	PF06455	32.38722697010845	.21147082294402136	Cytochrome C and Quinol oxidase polypeptide I	NADH dehydrogenase subunit 5 C-terminus
+PF00037	PF12009	137.1075807529088	.13566143391016947	4Fe-4S binding domain	Telomerase ribonucleoprotein complex - RNA binding domain
+PF00507	PF06455	38.30013875013874	.17166690036733487	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3	NADH dehydrogenase subunit 5 C-terminus
+PF10266	PF14744	-1	-1	Hereditary spastic paraplegia protein strumpellin	WASH complex subunit 7
+PF00361	PF02790	32.760113641172	.21530532389823243	Proton-conducting membrane transporter	Cytochrome C oxidase subunit II, transmembrane domain
+PF02790	PF06455	33.091385738444565	.14771792390194802	Cytochrome C oxidase subunit II, transmembrane domain	NADH dehydrogenase subunit 5 C-terminus
+PF00032	PF00499	38.951880972388345	.1871917766578306	Cytochrome b(C-terminal)/b6/petD	NADH-ubiquinone/plastoquinone oxidoreductase chain 6
+PF00116	PF00420	39.2672929975368	.25343552511024214	Cytochrome C oxidase subunit II, periplasmic domain	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L
+PF10266	PF14745	-1	-1	Hereditary spastic paraplegia protein strumpellin	WASH complex subunit 7, N-terminal
+PF00662	PF02790	30.340850220693085	.34462188732193894	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus	Cytochrome C oxidase subunit II, transmembrane domain
+PF00510	PF06455	38.47200140330945	.15142551986372998	Cytochrome c oxidase subunit III	NADH dehydrogenase subunit 5 C-terminus
+PF00444	PF05051	80.45788861215968	.28237923571774565	Ribosomal protein L36	Cytochrome C oxidase copper chaperone (COX17)
+PF07778	PF13092	61.6010075222989	.09542477905891728	Mis6	Kinetochore complex Sim4 subunit Fta1
+PF00033	PF00420	40.11790785995895	.1830592325362858	Cytochrome b/b6/petB	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L
+PF00420	PF00510	39.20705651876956	.14381443128920338	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L	Cytochrome c oxidase subunit III
+PF05631	PF13383	100.16350316350315	.08135815710689437	Sugar-tranasporters, 12 TM	Methyltransferase domain
+PF04135	PF12554	103.83717550152839	.31451970814416635	Nucleolar RNA-binding protein, Nop10p family	Mitotic-spindle organizing gamma-tubulin ring associated
+PF01200	PF03604	55.876031358519946	.3346064179436701	Ribosomal protein S28e	DNA directed RNA polymerase, 7 kDa subunit
+PF00209	PF00375	152.35100231642923	.0810211875408766	Sodium:neurotransmitter symporter family	Sodium:dicarboxylate symporter family
+PF09793	PF14438	108.41451868960867	.16700234022171512	Anticodon-binding domain	Ataxin 2 SM domain
+PF00032	PF06455	45.9287278897573	.13876205769446712	Cytochrome b(C-terminal)/b6/petD	NADH dehydrogenase subunit 5 C-terminus
+PF00116	PF00662	40.077849057173665	.28182010354697423	Cytochrome C oxidase subunit II, periplasmic domain	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+PF01020	PF08696	145.75812694796272	.1617746476953152	Ribosomal L40e family	DNA replication factor Dna2
+PF02689	PF14291	9.509083480527366	.1851763251320704	Helicase	Domain of unknown function (DUF4371)
+PF04406	PF12861	153.59379853238042	.1734268983835422	Type IIB DNA topoisomerase	Anaphase-promoting complex subunit 11 RING-H2 finger
+PF00078	PF13606	329.58137974789076	.15135910022832152	Reverse transcriptase (RNA-dependent DNA polymerase)	Ankyrin repeat
+PF00115	PF00499	31.595220743166216	.20192833446588704	Cytochrome C and Quinol oxidase polypeptide I	NADH-ubiquinone/plastoquinone oxidoreductase chain 6
+PF03966	PF06842	105.33651735814374	.2383507565267631	Trm112p-like protein	Protein of unknown function (DUF1242)
+PF11945	PF14744	62.12314144663015	.1316414981526633	WAHD domain of WASH complex	WASH complex subunit 7
+PF01020	PF12009	134.10320403542835	.17835503796550234	Ribosomal L40e family	Telomerase ribonucleoprotein complex - RNA binding domain
+PF00033	PF00499	39.16900232397651	.15171441563990856	Cytochrome b/b6/petB	NADH-ubiquinone/plastoquinone oxidoreductase chain 6
+PF04135	PF08571	136.9188239191818	.3217640134576263	Nucleolar RNA-binding protein, Nop10p family	Yos1-like
+PF00116	PF06455	44.616577540106945	.16204994932219025	Cytochrome C oxidase subunit II, periplasmic domain	NADH dehydrogenase subunit 5 C-terminus
+PF10152	PF14745	50.913115313168724	.15115448484252017	Predicted coiled-coil domain-containing protein (DUF2360)	WASH complex subunit 7, N-terminal
+PF00510	PF00662	34.5943280751466	.18347659845551484	Cytochrome c oxidase subunit III	NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+PF06331	PF09341	90.96749938723343	.22408968903746038	Transcription factor TFIIH complex subunit Tfb5	Transcription factor Pcc1
+PF00471	PF00832	55.4232570163861	.39025342651212636	Ribosomal protein L33	Ribosomal L39 protein
+PF05493	PF06842	95.58567807243142	.24866443714785522	ATP synthase subunit H	Protein of unknown function (DUF1242)
+PF00116	PF00507	50.191183078225066	.21352905960699803	Cytochrome C oxidase subunit II, periplasmic domain	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3
+PF10961	PF15879	48.00615131999886	.1830816867490584	Selenoprotein SelK_SelG	NADH-ubiquinone oxidoreductase MWFE subunit
+PF10152	PF10266	46.466605432555504	.11859885146594182	Predicted coiled-coil domain-containing protein (DUF2360)	Hereditary spastic paraplegia protein strumpellin
+PF11945	PF14745	55.06014231265091	.15888826678777135	WAHD domain of WASH complex	WASH complex subunit 7, N-terminal
+PF10266	PF14746	-1	-1	Hereditary spastic paraplegia protein strumpellin	WASH complex subunit 7, C-terminal
+PF00471	PF05365	61.566171138483696	.2918974277870482	Ribosomal protein L33	Ubiquinol-cytochrome C reductase, UQCRX/QCR9 like
+PF03561	PF09349	109.78003263144026	.17215761932235835	Allantoicase repeat	OHCU decarboxylase
+PF10266	PF11945	47.57641290475212	.18969302498354879	Hereditary spastic paraplegia protein strumpellin	WAHD domain of WASH complex
+PF06331	PF12861	102.58493450169279	.177968253674452	Transcription factor TFIIH complex subunit Tfb5	Anaphase-promoting complex subunit 11 RING-H2 finger
+PF11945	PF14746	56.57710635231143	.18643202559653588	WAHD domain of WASH complex	WASH complex subunit 7, C-terminal
+PF10152	PF11945	63.64155175073112	.0833188940566984	Predicted coiled-coil domain-containing protein (DUF2360)	WAHD domain of WASH complex
+PF06842	PF12861	92.49614399612273	.24361071069875384	Protein of unknown function (DUF1242)	Anaphase-promoting complex subunit 11 RING-H2 finger
+PF08911	PF10496	98.7152405622104	.167259075693238	NUP50 (Nucleoporin 50 kDa)	SNARE-complex protein Syntaxin-18 N-terminus
+PF12826	PF13604	36.70655685310858	.133433592030417	Helix-hairpin-helix motif	AAA domain
+PF10152	PF14744	70.56408883485713	.12316939924459347	Predicted coiled-coil domain-containing protein (DUF2360)	WASH complex subunit 7
+PF00037	PF09668	100.32367046632723	.2079785047095759	4Fe-4S binding domain	Aspartyl protease
+PF01984	PF06645	155.43587253538445	.20304694857875663	Double-stranded DNA-binding domain	Microsomal signal peptidase 12 kDa subunit (SPC12)
+PF08510	PF10181	103.22122175368516	.21788562190308644	PIG-P	GPI-GlcNAc transferase complex, PIG-H component
+PF00033	PF06455	44.532220557220555	.16744464159937167	Cytochrome b/b6/petB	NADH dehydrogenase subunit 5 C-terminus
+PF07962	PF13917	97.15277177321042	.16562011821712014	Replication Fork Protection Component Swi3	Zinc knuckle
+PF00832	PF04758	71.48964657620142	.3402761974953744	Ribosomal L39 protein	Ribosomal protein S30
+PF05391	PF13975	33.83333333333333	.21955852034088064	Lsm interaction motif	gag-polyprotein putative aspartyl protease
+PF00037	PF08696	149.5789074119131	.12948247567983256	4Fe-4S binding domain	DNA replication factor Dna2
+PF12861	PF14520	126.98878769283048	.19882999170071475	Anaphase-promoting complex subunit 11 RING-H2 finger	Helix-hairpin-helix domain
+PF00881	PF01841	78.69000103812027	.09340481121159797	Nitroreductase family	Transglutaminase-like superfamily
+PF03604	PF08122	81.35188237798835	.2305151698070324	DNA directed RNA polymerase, 7 kDa subunit	NADH-ubiquinone oxidoreductase B12 subunit family
+PF13229	PF13517	203.168520708037	.12083377615306862	Right handed beta helix region	Repeat domain in Vibrio, Colwellia, Bradyrhizobium and Shewanella
+PF07934	PF08783	163.99254695322693	.17989112508309302	8-oxoguanine DNA glycosylase, N-terminal domain	DWNN domain
+PF04434	PF13975	143.50639638139637	.20047596744360288	SWIM zinc finger	gag-polyprotein putative aspartyl protease
+PF02597	PF08242	95.67806595354834	.17517726576079273	ThiS family	Methyltransferase domain
+PF00115	PF00420	26.644675306170363	.26542105599732635	Cytochrome C and Quinol oxidase polypeptide I	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L
+PF05837	PF07778	55.516651015250076	.15354325698462548	Centromere protein H (CENP-H)	Mis6
+PF08571	PF13917	96.52328505407208	.19642476283590238	Yos1-like	Zinc knuckle
+PF00119	PF06455	33.60841368383938	.13542715399190375	ATP synthase A chain	NADH dehydrogenase subunit 5 C-terminus
+PF07896	PF13534	70.59618198073646	.3487215951987559	Protein of unknown function (DUF1674)	4Fe-4S dicluster domain
+PF00665	PF06825	126.38674381174381	.14653163762499072	Integrase core domain	Heat shock factor binding protein 1
+PF03308	PF13669	60.825375546098606	.14120762838271742	ArgK protein	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+PF08612	PF11571	57.21178069903365	.10980394597322994	TATA-binding related factor (TRF) of subunit 20 of Mediator complex	Mediator complex subunit 27
+PF16752	PF16796	59.75330225330225	.12307648869319827	Tubulin-specific chaperone C N-terminal domain	Microtubule binding
+PF00833	PF16906	130.40970618110055	.24853524786325196	Ribosomal S17	Ribosomal proteins L26 eukaryotic, L24P archaeal
+PF01422	PF13401	180.23221162355242	.18224709778668816	NF-X1 type zinc finger	AAA domain
+PF07915	PF08766	153.94418633116172	.17967921922035823	Glucosidase II beta subunit-like protein	DEK C terminal domain
+PF02594	PF08571	86.36553418460234	.2065716038586068	Uncharacterised ACR, YggU family COG1872	Yos1-like
+PF00329	PF00420	42.06066298056291	.1724872187483642	Respiratory-chain NADH dehydrogenase, 30 Kd subunit	NADH-ubiquinone/plastoquinone oxidoreductase chain 4L
+PF10961	PF12009	51.93937679498024	.12670275961206012	Selenoprotein SelK_SelG	Telomerase ribonucleoprotein complex - RNA binding domain
+PF02689	PF13359	9.918338485247553	.1668565756195245	Helicase	DDE superfamily endonuclease
+PF01059	PF06455	28.90039682539682	.1753088842214351	NADH-ubiquinone oxidoreductase chain 4, amino terminus	NADH dehydrogenase subunit 5 C-terminus
+PF10247	PF13691	87.97947184785912	.21855618214917946	Reactive mitochondrial oxygen species modulator 1	tRNase Z endonuclease
+PF01422	PF06842	104.52274956680392	.33656440002656196	NF-X1 type zinc finger	Protein of unknown function (DUF1242)
+PF05493	PF08038	61.565854642003266	.2311776685623755	ATP synthase subunit H	TOM7 family
+PF07304	PF13245	75.68524900235117	.1281391913897825	Steroid receptor RNA activator (SRA1)	AAA domain
+PF06155	PF16206	53.094083365396095	.11279063718226862	Protein of unknown function (DUF971)	C-terminal region of Mon2 protein
+PF01368	PF02597	109.94552644637784	.18216594801109173	DHH family	ThiS family
+PF03660	PF07491	96.56287030497	.24811545414844693	PHF5-like protein	Protein phosphatase inhibitor
+PF05669	PF10382	96.97508665588813	.16456731378087228	SOH1	Protein of unknown function (DUF2439)
+PF04826	PF14622	49.55629411173473	.15592005311376167	Armadillo-like	Ribonuclease-III-like
+PF13401	PF16796	81.31689289625587	.11141795894064177	AAA domain	Microtubule binding
+PF01693	PF13452	120.35960043374894	.15639391343802353	Caulimovirus viroplasmin	N-terminal half of MaoC dehydratase
+PF00731	PF02843	119.38972016745515	.23364829007603102	AIR carboxylase	Phosphoribosylglycinamide synthetase, C domain
+PF01923	PF02310	63.87250167667651	.17612420334555068	Cobalamin adenosyltransferase	B12 binding domain
+PF05160	PF09072	105.40874001707975	.329548838591789	DSS1/SEM1 family	Translation machinery associated TMA7
+PF02749	PF06052	105.47114758724746	.20233184272000473	Quinolinate phosphoribosyl transferase, N-terminal domain	3-hydroxyanthranilic acid dioxygenase
+PF04188	PF06432	148.47410178444287	.10848044373488039	Mannosyltransferase (PIG-V)	Phosphatidylinositol N-acetylglucosaminyltransferase
+PF04161	PF05024	125.82446380444651	.12152897972401189	Arv1-like family	N-acetylglucosaminyl transferase component (Gpi1)
+PF05493	PF15477	66.15628594541295	.21788211104447683	ATP synthase subunit H	Small acidic protein family
+PF06293	PF08571	96.40374116243804	.15638810452167556	Lipopolysaccharide kinase (Kdo/WaaP) family	Yos1-like
+PF11411	PF12047	33.121153394409205	.1676397963402172	DNA ligase IV	Cytosine specific DNA methyltransferase replication foci domain
+PF00221	PF01936	99.61328245477748	.1339064309701477	Aromatic amino acid lyase	NYN domain
+PF05162	PF10215	29.13030783286201	.3976513080959547	Ribosomal protein L41	Oligosaccaryltransferase
+PF06624	PF07572	88.20594471454078	.20507904737967883	Ribosome associated membrane protein RAMP4	Bucentaur or craniofacial development
+PF08567	PF10198	80.75497543691185	.16238345300804907	TFIIH p62 subunit, N-terminal domain	Histone acetyltransferases subunit 3
+PF05001	PF15879	-1	-1	RNA polymerase Rpb1 C-terminal repeat	NADH-ubiquinone oxidoreductase MWFE subunit
+PF02689	PF14815	2.510937730583529	.17510294751647854	Helicase	NUDIX domain
+PF04161	PF10203	92.70634337204983	.1380137059802101	Arv1-like family	Cytochrome c oxidase assembly protein PET191
+PF00665	PF13606	369.0194984617182	.16590623189206824	Integrase core domain	Ankyrin repeat
+PF01791	PF14438	83.97899072027765	.14911895333915226	DeoC/LacD family aldolase	Ataxin 2 SM domain
+PF02585	PF09202	196.0279790632464	.1852734771499167	GlcNAc-PI de-N-acetylase	Rio2, N-terminal
+PF00209	PF16350	51.248712782341556	.12431939361554206	Sodium:neurotransmitter symporter family	FAD dependent oxidoreductase central domain
+PF01779	PF03604	73.29890145280197	.33298168231238734	Ribosomal L29e protein family	DNA directed RNA polymerase, 7 kDa subunit
+PF00024	PF09465	37.78997366467955	.16816634991319676	PAN domain	Lamin-B receptor of TUDOR domain
+PF12047	PF16550	70.33225871801174	.1099769035889579	Cytosine specific DNA methyltransferase replication foci domain	UCH-binding domain
+PF05254	PF06658	111.04334882138397	.1712313123280461	Uncharacterised protein family (UPF0203)	Protein of unknown function (DUF1168)
+PF12862	PF13691	101.54482167129017	.17828269983690131	Anaphase-promoting complex subunit 5	tRNase Z endonuclease
+PF07286	PF08839	37.75092842615422	.154082821267001	Protein of unknown function (DUF1445)	DNA replication factor CDT1 like
+PF10199	PF10260	59.56193467153373	.14914913887656192	Alpha and gamma adaptin binding protein p34	Uncharacterized conserved domain (SAYSvFN)
+PF04406	PF10382	111.36716939553018	.18720134825914825	Type IIB DNA topoisomerase	Protein of unknown function (DUF2439)
+PF01923	PF13669	66.33748221943549	.1651513510794373	Cobalamin adenosyltransferase	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+PF00731	PF01071	132.34486570314039	.16675392610206333	AIR carboxylase	Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+PF04418	PF13233	88.12978681052229	.15347696215577805	Domain of unknown function (DUF543)	Complex1_LYR-like
+PF05731	PF13174	53.650866776230934	.09255721459981014	TROVE domain	Tetratricopeptide repeat
+PF07452	PF07779	54.58172230769124	.10269898662982704	CHRD domain	10 TM Acyl Transferase domain found in Cas1p
+PF01491	PF03870	147.76500374809186	.20338579457334457	Frataxin-like domain	RNA polymerase Rpb8
+PF00115	PF01391	24.342020736849612	.12065806136608473	Cytochrome C and Quinol oxidase polypeptide I	Collagen triple helix repeat (20 copies)
+PF03803	PF08612	59.975077336870314	.09115723003952879	Scramblase	TATA-binding related factor (TRF) of subunit 20 of Mediator complex
+PF05198	PF08209	64.30768300634445	.17652948190246992	Translation initiation factor IF-3, N-terminal domain	Sgf11 (transcriptional regulation protein)
+PF02689	PF14493	1.0356889564336371	.5111148287714433	Helicase	Helix-turn-helix domain
+PF04406	PF13673	203.4075724099789	.13558414189681578	Type IIB DNA topoisomerase	Acetyltransferase (GNAT) domain
+PF02178	PF11719	70.13711480869378	.08994649208873143	AT hook motif	DNA replication and checkpoint protein
+PF02689	PF13245	5.837501709550994	.17208522728746584	Helicase	AAA domain
+PF08615	PF09468	133.82352201701113	.1015056636086211	Ribonuclease H2 non-catalytic subunit (Ylr154p-like)	Ydr279p protein family (RNase H2 complex component)
+PF08510	PF10203	97.64980365165141	.15843445245424975	PIG-P	Cytochrome c oxidase assembly protein PET191
+PF16501	PF16669	46.27828719709873	.25109137522459135	S phase cyclin A-associated protein in the endoplasmic reticulum	Tetratricopeptide repeat protein 5 OB fold domain
+PF04005	PF13174	86.58114491769874	.09556350451175893	Hus1-like protein	Tetratricopeptide repeat
+PF07019	PF14438	84.07134174501608	.187645489951278	Rab5-interacting protein (Rab5ip)	Ataxin 2 SM domain
+PF09799	PF10149	48.909324969859746	.21815507637141282	Predicted membrane protein	Transmembrane protein 231
+PF00078	PF07896	156.77186757207417	.14936725707431597	Reverse transcriptase (RNA-dependent DNA polymerase)	Protein of unknown function (DUF1674)
+PF02045	PF05493	93.06823624297185	.24512569260839057	CCAAT-binding transcription factor (CBF-B/NF-YA) subunit B	ATP synthase subunit H
+PF10215	PF10639	41.95700566325631	.17755694835904073	Oligosaccaryltransferase	Putative transmembrane family 234
+PF05493	PF12554	92.2563036246738	.2701394482846757	ATP synthase subunit H	Mitotic-spindle organizing gamma-tubulin ring associated
+PF02176	PF08032	97.27878696942162	.16659570620328087	TRAF-type zinc finger	RNA 2'-O ribose methyltransferase substrate binding
+PF04627	PF10215	61.679159436594254	.2818690699628008	Mitochondrial ATP synthase epsilon chain	Oligosaccaryltransferase
+PF01259	PF13507	124.91027231336864	.13863155825844983	SAICAR synthetase	CobB/CobQ-like glutamine amidotransferase domain
+PF09696	PF16503	126.46912138693708	.22381849940655096	Ctf8	Zinc-ribbon
+PF02137	PF07572	136.17065964637715	.1330874318075488	Adenosine-deaminase (editase) domain	Bucentaur or craniofacial development
+PF04133	PF09341	81.66293019898599	.16112568497053498	Vacuolar protein sorting 55	Transcription factor Pcc1
+PF08574	PF11605	109.41269114215119	.18698412955895694	Transcription factor Iwr1	Vacuolar protein sorting protein 36 Vps36
+PF07061	PF12861	95.05192170077807	.18255296023031983	Swi5	Anaphase-promoting complex subunit 11 RING-H2 finger
+PF06331	PF08991	54.85425216870194	.21835793433809042	Transcription factor TFIIH complex subunit Tfb5	Mature-T-Cell Proliferation I type

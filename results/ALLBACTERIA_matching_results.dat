@@ -1,0 +1,201 @@
+#dom1	dom2	Meff	DCA_score	dom1_description	dom2_description
+PF03788	PF04172	416.49175068439706	.3883714241918748	LrgA family	LrgB-like family
+PF03480	PF04290	928.9038181640632	.1465228128061192	Bacterial extracellular solute-binding protein, family 7	Tripartite ATP-independent periplasmic transporters, DctQ component
+PF00221	PF01175	204.84535888420126	.10790615377665957	Aromatic amino acid lyase	Urocanase
+PF01420	PF04313	597.1052492922764	.11486970367021576	Type I restriction modification DNA specificity domain	Type I restriction enzyme R protein N terminus (HSDR_N)
+PF02669	PF03814	320.6236915456105	.3667157842539563	K+-transporting ATPase, c chain	Potassium-transporting ATPase A subunit
+PF07394	PF08811	205.98093993210102	.09803979314524347	Protein of unknown function (DUF1501)	Protein of unknown function (DUF1800)
+PF02233	PF12769	238.9922809214542	.25057818320697656	NAD(P) transhydrogenase beta subunit	4TM region of pyridine nucleotide transhydrogenase, mitoch
+PF09359	PF16316	217.04893590028985	.14922833759537643	VTC domain	Domain of unknown function (DUF4956)
+PF02665	PF14711	143.84120493151516	.18479669738813542	Nitrate reductase gamma subunit	Respiratory nitrate reductase beta C-terminal
+PF03401	PF07331	537.0523982773612	.13389918786933505	Tripartite tricarboxylate transporter family receptor	Tripartite tricarboxylate transporter TctB family
+PF01970	PF03401	511.1907970475348	.15146496888416555	Tripartite tricarboxylate transporter TctA family	Tripartite tricarboxylate transporter family receptor
+PF04168	PF08379	267.8654651633968	.1398619686820136	A predicted alpha-helical domain with a conserved ER motif.	Bacterial transglutaminase-like N-terminal region
+PF04865	PF04984	183.61079154422092	.07758097131013772	Baseplate J-like protein	Phage tail sheath protein
+PF03841	PF09107	293.51176133467806	.17739404354019975	L-seryl-tRNA selenium transferase	Elongation factor SelB, winged helix
+PF02669	PF02702	386.368932319689	.1998992568430452	K+-transporting ATPase, c chain	Osmosensitive K+ channel His kinase sensor domain
+PF02702	PF03814	285.44674159865707	.16585224395695017	Osmosensitive K+ channel His kinase sensor domain	Potassium-transporting ATPase A subunit
+PF05107	PF09709	164.81868911102663	.08789229682941141	CRISPR-associated protein Cas7	CRISPR-associated protein (Cas_Csd1)
+PF00936	PF03319	160.71342602809852	.3149419735100851	BMC domain	Ethanolamine utilisation protein EutN/carboxysome
+PF13555	PF13835	79.76000974350237	.14212636713658902	P-loop containing region of AAA domain	Domain of unknown function (DUF4194)
+PF08379	PF14403	349.7661592607243	.13828341426667892	Bacterial transglutaminase-like N-terminal region	Circularly permuted ATP-grasp type 2
+PF05138	PF06243	154.55877690297453	.18758049413254235	Phenylacetic acid catabolic protein	Phenylacetic acid degradation B
+PF03334	PF04039	305.4835957269052	.18984658223048356	Na+/H+ antiporter subunit	Domain related to MnhB subunit of Na+/H+ antiporter
+PF03432	PF05713	177.73649168523613	.11654323500091984	Relaxase/Mobilisation nuclease domain	Bacterial mobilisation protein (MobC)
+PF08808	PF09722	205.98493842269352	.1608826199733996	RES domain	Protein of unknown function (DUF2384)
+PF05973	PF13744	129.01684738696414	.1584985845869194	Phage derived protein Gp49-like (DUF891)	Helix-turn-helix domain
+PF04860	PF05065	313.35398417370016	.0817633415936734	Phage portal protein	Phage capsid family
+PF00145	PF03852	187.99747483473388	.11580452162257865	C-5 cytosine-specific DNA methylase	DNA mismatch endonuclease Vsr
+PF05136	PF05876	143.26379239884244	.13198436792193363	Phage portal protein, lambda family	Phage terminase large subunit (GpA)
+PF06832	PF11974	180.21144993722424	.18051090271532383	Penicillin-Binding Protein C-terminus Family	Alpha-2-macroglobulin MG1 domain
+PF04039	PF04066	274.6718053434144	.2349521509391681	Domain related to MnhB subunit of Na+/H+ antiporter	Multiple resistance and pH regulation protein F (MrpF / PhaF)
+PF06149	PF06166	95.77069951891933	.203249493260121	Protein of unknown function (DUF969)	Protein of unknown function (DUF979)
+PF02283	PF02654	688.930852441618	.14625140663455172	Cobinamide kinase / cobinamide phosphate guanyltransferase	Cobalamin-5-phosphate synthase
+PF03180	PF09383	474.2077038191965	.16964189274052172	NLPA lipoprotein	NIL domain
+PF05717	PF13007	266.7199046998012	.16060832907987757	IS66 Orf2 like protein	Transposase C of IS166 homeodomain
+PF01384	PF01865	283.72421089573123	.11216060867921757	Phosphate transporter family	Protein of unknown function DUF47
+PF03334	PF04066	287.14324401369777	.33787903303428135	Na+/H+ antiporter subunit	Multiple resistance and pH regulation protein F (MrpF / PhaF)
+PF04397	PF06580	1398.6525338851284	.17819843524610762	LytTr DNA-binding domain	Histidine kinase
+PF01924	PF07503	315.0841649010283	.14625626237073378	Hydrogenase formation hypA family	HypF finger
+PF01930	PF09827	183.85720633057124	.15368614273457615	Domain of unknown function DUF83	CRISPR associated protein Cas2
+PF05621	PF06527	136.32326203208555	.10518232240020502	Bacterial TniB protein	TniQ
+PF11188	PF13443	364.73049608192497	.23676748088050625	Protein of unknown function (DUF2975)	Cro/C1-type HTH DNA-binding domain
+PF00547	PF01730	320.14807969844077	.27422842218444526	Urease, gamma subunit	UreF
+PF00449	PF01774	350.0441084588262	.17155273087704265	Urease alpha-subunit, N-terminal domain	UreD urease accessory protein
+PF09107	PF12390	179.56266099623946	.2863746920000253	Elongation factor SelB, winged helix	Selenocysteine synthase N terminal
+PF01867	PF09704	60.35387851038858	.10512460237963966	CRISPR associated protein Cas1	CRISPR-associated protein (Cas_Cas5)
+PF05861	PF06007	92.85849167610036	.179081045255439	Bacterial phosphonate metabolism protein (PhnI)	Phosphonate metabolism protein PhnJ
+PF03977	PF04277	238.9002127922436	.23405314585614387	Na+-transporting oxaloacetate decarboxylase beta subunit	Oxaloacetate decarboxylase, gamma chain
+PF02744	PF10509	153.37415750100925	.18258852416664423	Galactose-1-phosphate uridyl transferase, C-terminal domain	Galactokinase galactose-binding signature
+PF08798	PF09344	158.67132459044223	.10186134157833794	CRISPR associated protein	CT1975-like protein
+PF01174	PF01680	315.4922903011675	.2794722163019269	SNO glutamine amidotransferase family	SOR/SNZ family
+PF01930	PF05107	152.54170274996517	.11314587031494275	Domain of unknown function DUF83	CRISPR-associated protein Cas7
+PF00449	PF01730	321.2329179336692	.2229573944376364	Urease alpha-subunit, N-terminal domain	UreF
+PF00699	PF01730	339.901896339255	.19595568109774375	Urease beta subunit	UreF
+PF05845	PF05861	132.1928970996847	.14835754950828506	Bacterial phosphonate metabolism protein (PhnH)	Bacterial phosphonate metabolism protein (PhnI)
+PF05845	PF06007	135.22993852552676	.23218923680073011	Bacterial phosphonate metabolism protein (PhnH)	Phosphonate metabolism protein PhnJ
+PF09344	PF09481	126.5895318733554	.07451286021902725	CT1975-like protein	CRISPR-associated protein Cse1 (CRISPR_cse1)
+PF02277	PF02654	572.2281019611798	.14431088721909335	Phosphoribosyltransferase	Cobalamin-5-phosphate synthase
+PF05717	PF13005	225.48263113533864	.1737822750111656	IS66 Orf2 like protein	zinc-finger binding domain of transposase IS66
+PF03965	PF05569	531.3105579359437	.14738435619041923	Penicillinase repressor	BlaR1 peptidase M56
+PF10593	PF14390	86.93849206349206	.08263494254889306	Z1 domain	Putative PD-(D/E)XK family member, (DUF4420)
+PF06841	PF14065	98.09282923722832	.11868043047275445	T4-like virus tail tube protein gp19	Protein of unknown function (DUF4255)
+PF13689	PF17152	171.82769175269175	.15680735237498414	Domain of unknown function (DUF4154)	Periplasmic sensor domain
+PF01874	PF06857	204.90369143670236	.14840607067486034	ATP:dephospho-CoA triphosphoribosyl transferase	Malonate decarboxylase delta subunit (MdcD)
+PF05048	PF05573	132.59465224318166	.11194362125761495	Periplasmic copper-binding protein (NosD)	NosL
+PF12320	PF13558	345.56927702377817	.19111739550386778	Type 5 capsule protein repressor C-terminal domain	Putative exonuclease SbcCD, C subunit
+PF09344	PF09485	147.0777888777889	.12466977884570993	CT1975-like protein	CRISPR-associated protein Cse2 (CRISPR_cse2)
+PF01087	PF10509	133.2290080440771	.15118839735620804	Galactose-1-phosphate uridyl transferase, N-terminal domain	Galactokinase galactose-binding signature
+PF01155	PF01455	374.17030679251417	.19788011765362934	Hydrogenase/urease nickel incorporation, metallochaperone, hypA	HupF/HypC family
+PF04465	PF06634	50.51339168078297	.09611390810351117	Protein of unknown function (DUF499)	Protein of unknown function (DUF1156)
+PF08798	PF09481	124.2575295619413	.07588503386422515	CRISPR associated protein	CRISPR-associated protein Cse1 (CRISPR_cse1)
+PF01799	PF02625	681.6356250940397	.18981052607749113	[2Fe-2S] binding domain	XdhC and CoxI family
+PF06792	PF09370	97.24326506826506	.13877423327690963	Uncharacterised protein family (UPF0261)	Phosphoenolpyruvate hydrolase-like
+PF01155	PF01924	347.576478660018	.14907968471561078	Hydrogenase/urease nickel incorporation, metallochaperone, hypA	Hydrogenase formation hypA family
+PF01799	PF13478	628.7937172866414	.1972259276613723	[2Fe-2S] binding domain	XdhC Rossmann domain
+PF00374	PF07503	121.34287901438944	.1490477427403688	Nickel-dependent hydrogenase	HypF finger
+PF09489	PF09490	104.54641261732667	.1871520926725178	Probable cobalt transporter subunit (CbtB)	Probable cobalt transporter subunit (CbtA)
+PF08798	PF09485	125.12941036861314	.10180259408794795	CRISPR associated protein	CRISPR-associated protein Cse2 (CRISPR_cse2)
+PF06832	PF07703	206.19389272507883	.16556382739544648	Penicillin-Binding Protein C-terminus Family	Alpha-2-macroglobulin family N-terminal region
+PF01890	PF02570	383.77749264033946	.1758103717584713	Cobalamin synthesis G C-terminus	Precorrin-8X methylmutase
+PF03354	PF05065	193.318024521644	.07130500458551972	Phage Terminase	Phage capsid family
+PF03354	PF04860	203.28908669446525	.07333347200430008	Phage Terminase	Phage portal protein
+PF03775	PF03776	268.4802207185727	.22695888782322754	Septum formation inhibitor MinC, C-terminal domain	Septum formation topological specificity factor MinE
+PF03379	PF16327	262.99551123761705	.14187519984586744	CcmB protein	Cytochrome c-type biogenesis protein CcmF C-terminal
+PF03100	PF03379	266.3585268610239	.17300929555997652	CcmE	CcmB protein
+PF01750	PF01924	309.5858782177332	.14701254634070202	Hydrogenase maturation protease	Hydrogenase formation hypA family
+PF12399	PF13458	848.7518376879466	.13310395605734504	Branched-chain amino acid ATP-binding cassette transporter	Periplasmic binding protein
+PF01774	PF05194	227.70183059876476	.16888570023468552	UreD urease accessory protein	UreE urease accessory protein, C-terminal domain
+PF01155	PF07503	411.1870602252883	.19954470973718208	Hydrogenase/urease nickel incorporation, metallochaperone, hypA	HypF finger
+PF09704	PF09709	168.78761413595007	.08165518744759254	CRISPR-associated protein (Cas_Cas5)	CRISPR-associated protein (Cas_Csd1)
+PF04285	PF06798	61.80914963164467	.10331176746330134	Protein of unknown function (DUF444)	PrkA serine protein kinase C-terminal domain
+PF13629	PF16976	211.33742538885414	.20308055682992326	Pilus formation protein N terminal region	Flp pilus assembly protein RcpC/CpaB
+PF11997	PF16933	68.83309451985922	.07702858008608726	Domain of unknown function (DUF3492)	Putative exopolysaccharide Exporter (EPS-E)
+PF01155	PF01750	277.24879590362383	.14368943033214798	Hydrogenase/urease nickel incorporation, metallochaperone, hypA	Hydrogenase maturation protease
+PF04285	PF08298	55.63466810988671	.12320011029022918	Protein of unknown function (DUF444)	PrkA AAA domain
+PF00343	PF02922	173.58504265191115	.10276174529254373	Carbohydrate phosphorylase	Carbohydrate-binding module 48 (Isoamylase N-terminal domain)
+PF04293	PF06798	87.48547359864827	.10373482448528097	SpoVR like protein	PrkA serine protein kinase C-terminal domain
+PF04293	PF08298	92.2474359298128	.11013510485911812	SpoVR like protein	PrkA AAA domain
+PF04285	PF04293	65.13824775254814	.1168692078834051	Protein of unknown function (DUF444)	SpoVR like protein
+PF01930	PF09704	146.95346819911737	.10493178219138005	Domain of unknown function DUF83	CRISPR-associated protein (Cas_Cas5)
+PF06527	PF09299	202.8786630036631	.14961028991523012	TniQ	Mu transposase, C-terminal
+PF00499	PF00507	400.3852702306882	.2961004125364551	NADH-ubiquinone/plastoquinone oxidoreductase chain 6	NADH-ubiquinone/plastoquinone oxidoreductase, chain 3
+PF00393	PF00479	260.6187783281705	.11973025160335167	6-phosphogluconate dehydrogenase, C-terminal domain	Glucose-6-phosphate dehydrogenase, NAD binding domain
+PF00393	PF02781	367.2120213002438	.11701448148333687	6-phosphogluconate dehydrogenase, C-terminal domain	Glucose-6-phosphate dehydrogenase, C-terminal domain
+PF01835	PF06832	177.791389426147	.17557465459048757	MG2 domain	Penicillin-Binding Protein C-terminus Family
+PF04586	PF04860	208.07741629779343	.10819030901191883	Caudovirus prohead serine protease	Phage portal protein
+PF08798	PF09707	129.23494397759103	.14112496234051014	CRISPR associated protein	CRISPR-associated protein (Cas_Cas2CT1978)
+PF00343	PF02806	142.28141227057318	.13250617541251547	Carbohydrate phosphorylase	Alpha amylase, C-terminal all-beta domain
+PF01774	PF02814	241.0792937621513	.15119800034583908	UreD urease accessory protein	UreE urease accessory protein, N-terminal domain
+PF07811	PF16976	289.29989056732023	.22295137587256791	TadE-like protein	Flp pilus assembly protein RcpC/CpaB
+PF09344	PF09707	118.93927183927183	.12250202733463156	CT1975-like protein	CRISPR-associated protein (Cas_Cas2CT1978)
+PF01944	PF14258	98.15989986594903	.15675491554718435	Stage II sporulation protein M	Domain of unknown function (DUF4350)
+PF02508	PF03116	384.2725801193621	.23348776479469596	Rnf-Nqr subunit, membrane protein	NQR2, RnfD, RnfE family
+PF00547	PF05194	213.65857977588487	.27701392777893774	Urease, gamma subunit	UreE urease accessory protein, C-terminal domain
+PF07811	PF13629	250.07616648297216	.22495407504633275	TadE-like protein	Pilus formation protein N terminal region
+PF00207	PF06832	188.56167219589256	.1854655920794407	Alpha-2-macroglobulin family	Penicillin-Binding Protein C-terminus Family
+PF01583	PF13469	490.68677104157814	.1213813842046744	Adenylylsulphate kinase	Sulfotransferase family
+PF04267	PF04268	188.94078396409537	.22559066544634393	Sarcosine oxidase, delta subunit family	Sarcosine oxidase, gamma subunit family
+PF08757	PF09359	170.4967223980534	.07802602184376191	CotH protein	VTC domain
+PF01888	PF02570	296.48402633290755	.14935144849723506	CbiD	Precorrin-8X methylmutase
+PF02614	PF03786	272.8342554270813	.12474304626834577	Glucuronate isomerase	D-mannonate dehydratase (UxuA)
+PF09344	PF09704	160.08445108812757	.10742791332473385	CT1975-like protein	CRISPR-associated protein (Cas_Cas5)
+PF02570	PF02571	353.24588968853067	.16977320969387452	Precorrin-8X methylmutase	Precorrin-6x reductase CbiJ/CobK
+PF01888	PF11760	317.56651793527135	.19292883915013376	CbiD	Cobalamin synthesis G N-terminal
+PF10923	PF15615	76.26587301587301	.11543066242776395	P-loop Domain of unknown function (DUF2791)	TerB-C domain
+PF07811	PF13400	447.6442776587831	.30023055325337783	TadE-like protein	Putative Flp pilus-assembly TadE/G-like
+PF04965	PF05954	318.975524103815	.10532473917151142	Gene 25-like lysozyme	Phage late control gene D protein (GPD)
+PF00699	PF05194	252.11031621457337	.2754943068967216	Urease beta subunit	UreE urease accessory protein, C-terminal domain
+PF00449	PF05194	207.68671931202556	.24021189456906034	Urease alpha-subunit, N-terminal domain	UreE urease accessory protein, C-terminal domain
+PF08747	PF13337	47.91655827832298	.1287083535218019	Domain of unknown function (DUF1788)	Putative ATP-dependent Lon protease
+PF03892	PF03927	114.74956040971487	.1711580769805362	Nitrate reductase cytochrome c-type subunit (NapB)	NapD protein
+PF06527	PF08722	129.60046897546897	.1448467700409149	TniQ	TnsA endonuclease N terminal
+PF01930	PF09709	177.54987618590565	.08030437417643667	Domain of unknown function DUF83	CRISPR-associated protein (Cas_Csd1)
+PF05643	PF16068	80.26904761904761	.17863055599352773	Putative bacterial lipoprotein (DUF799)	Domain of unknown function (DUF4810)
+PF05135	PF05521	231.50180348318128	.13743904469797036	Phage gp6-like head-tail connector protein	Phage head-tail joining protein
+PF01155	PF14720	206.92017931462766	.17781823616663464	Hydrogenase/urease nickel incorporation, metallochaperone, hypA	NiFe/NiFeSe hydrogenase small subunit C-terminal
+PF08757	PF16316	158.63597825661122	.08218200056400912	CotH protein	Domain of unknown function (DUF4956)
+PF06966	PF07103	149.06904446023606	.11753319868629686	Protein of unknown function (DUF1295)	Protein of unknown function (DUF1365)
+PF00547	PF02814	252.4934131314537	.2709232538299532	Urease, gamma subunit	UreE urease accessory protein, N-terminal domain
+PF08798	PF09704	165.02410192147033	.11757410543782944	CRISPR associated protein	CRISPR-associated protein (Cas_Cas5)
+PF03135	PF04335	124.11861129871167	.10034859101086425	CagE, TrbE, VirB family, component of type IV transporter system	VirB8 protein
+PF04328	PF13722	120.88312287747124	.2748009153861363	Selenoprotein, putative	5TM C-terminal transporter carbon starvation CstA
+PF02554	PF04328	102.57145387538515	.19713982880041217	Carbon starvation protein CstA	Selenoprotein, putative
+PF00699	PF02814	300.97884888159666	.2915971675294318	Urease beta subunit	UreE urease accessory protein, N-terminal domain
+PF01888	PF01890	365.4178693319938	.14096706716192747	CbiD	Cobalamin synthesis G C-terminus
+PF02570	PF11760	279.49467041493205	.19640239160469436	Precorrin-8X methylmutase	Cobalamin synthesis G N-terminal
+PF01729	PF02445	467.5813792871291	.14992823194658628	Quinolinate phosphoribosyl transferase, C-terminal domain	Quinolinate synthetase A protein
+PF02924	PF03864	68.83171828171828	.11141496592924935	Bacteriophage lambda head decoration protein D	Phage major capsid protein E
+PF04335	PF04610	170.00890362932344	.1083027285564786	VirB8 protein	TrbL/VirB6 plasmid conjugal transfer protein
+PF11855	PF13835	52.4926408479794	.0819547496539485	Protein of unknown function (DUF3375)	Domain of unknown function (DUF4194)
+PF04365	PF14384	254.83322709260142	.21063353280555291	Ribonuclease toxin, BrnT, of type II toxin-antitoxin system	BrnA antitoxin of type II toxin-antitoxin system
+PF00449	PF02814	248.6896071549711	.2608555462583814	Urease alpha-subunit, N-terminal domain	UreE urease accessory protein, N-terminal domain
+PF02110	PF03070	236.19446649841393	.11348615744040312	Hydroxyethylthiazole kinase family	TENA/THI-4/PQQC family
+PF09485	PF09707	109.7569805194805	.15937308423110044	CRISPR-associated protein Cse2 (CRISPR_cse2)	CRISPR-associated protein (Cas_Cas2CT1978)
+PF06243	PF14535	145.5666777076819	.23129347784639542	Phenylacetic acid degradation B	AMP-binding enzyme C-terminal domain
+PF01420	PF08463	283.20708580635056	.1001082535957248	Type I restriction modification DNA specificity domain	EcoEI R protein C-terminal
+PF13699	PF14065	130.2498233852166	.12000911467399658	Domain of unknown function (DUF4157)	Protein of unknown function (DUF4255)
+PF06833	PF16957	50.74023319992998	.12519711660278	Malonate decarboxylase gamma subunit (MdcE)	Malonate decarboxylase, alpha subunit, transporter
+PF04964	PF16976	262.7102837381784	.20583701830535583	Flp/Fap pilin component	Flp pilus assembly protein RcpC/CpaB
+PF02445	PF02749	448.747978065555	.16986029485165516	Quinolinate synthetase A protein	Quinolinate phosphoribosyl transferase, N-terminal domain
+PF09481	PF09704	112.61248251232772	.07373191359788722	CRISPR-associated protein Cse1 (CRISPR_cse1)	CRISPR-associated protein (Cas_Cas5)
+PF04984	PF06841	121.92735471508337	.09528777308764821	Phage tail sheath protein	T4-like virus tail tube protein gp19
+PF11855	PF13555	56.10174323299311	.09214663579086038	Protein of unknown function (DUF3375)	P-loop containing region of AAA domain
+PF06833	PF10620	70.02013035983623	.1063691956312752	Malonate decarboxylase gamma subunit (MdcE)	Phosphoribosyl-dephospho-CoA transferase MdcG
+PF04011	PF04536	514.0133568499489	.2640899018340485	LemA family	TPM domain
+PF09481	PF09707	78.07057387057385	.0802466357321625	CRISPR-associated protein Cse1 (CRISPR_cse1)	CRISPR-associated protein (Cas_Cas2CT1978)
+PF02332	PF02406	37.97147530978406	.1527659913271492	Methane/Phenol/Toluene Hydroxylase	MmoB/DmpM family
+PF13400	PF16976	270.6269857442466	.1937082685513566	Putative Flp pilus-assembly TadE/G-like	Flp pilus assembly protein RcpC/CpaB
+PF10620	PF16957	68.96726497616591	.11200072925436315	Phosphoribosyl-dephospho-CoA transferase MdcG	Malonate decarboxylase, alpha subunit, transporter
+PF03354	PF05521	137.25808463043347	.08980881321273543	Phage Terminase	Phage head-tail joining protein
+PF05138	PF14535	139.52390025075314	.1317631319427379	Phenylacetic acid catabolic protein	AMP-binding enzyme C-terminal domain
+PF04964	PF07811	417.0517787767788	.29677146415471356	Flp/Fap pilin component	TadE-like protein
+PF09937	PF13665	122.84521867021866	.10517091548877405	Uncharacterized protein conserved in bacteria (DUF2169)	Domain of unknown function (DUF4150)
+PF05065	PF05135	153.0484401343158	.10304851894243229	Phage capsid family	Phage gp6-like head-tail connector protein
+PF03537	PF11997	77.88333629844645	.09009348455505359	Glycoside-hydrolase family GH114	Domain of unknown function (DUF3492)
+PF09660	PF09661	47.97280358530358	.17454620098298	Protein of unknown function (DUF2397)	Protein of unknown function (DUF2398)
+PF03135	PF04610	147.25480056019396	.08497355905462223	CagE, TrbE, VirB family, component of type IV transporter system	TrbL/VirB6 plasmid conjugal transfer protein
+PF06841	PF13699	167.07779151719487	.1364147801735498	T4-like virus tail tube protein gp19	Domain of unknown function (DUF4157)
+PF05949	PF06947	147.06329043907255	.19737882452272898	Bacterial protein of unknown function (DUF881)	Protein of unknown function (DUF1290)
+PF03994	PF13785	99.03288855537306	.17167932947798425	Domain of Unknown Function (DUF350)	Domain of unknown function (DUF4178)
+PF04223	PF06857	115.57239169928796	.1997638535206215	Citrate lyase, alpha subunit (CitF)	Malonate decarboxylase delta subunit (MdcD)
+PF03135	PF03524	134.80747896493816	.09105925679493182	CagE, TrbE, VirB family, component of type IV transporter system	Conjugal transfer protein
+PF05402	PF14907	399.35273280622255	.1254372981955738	Coenzyme PQQ synthesis protein D (PqqD)	Uncharacterised nucleotidyltransferase
+PF03787	PF10040	145.55869408369406	.12396139470791093	RAMP superfamily	Uncharacterized conserved protein (DUF2276)
+PF02283	PF03186	633.8436625097557	.1455644240338031	Cobinamide kinase / cobinamide phosphate guanyltransferase	CobD/Cbib protein
+PF07040	PF09948	69.66849816849815	.11792626116440431	Protein of unknown function (DUF1326)	Predicted metal-binding integral membrane protein (DUF2182)
+PF04223	PF08218	113.0155497280497	.1354408081277819	Citrate lyase, alpha subunit (CitF)	Citrate lyase ligase C-terminal domain
+PF09106	PF12390	154.33429253495046	.25373227363583567	Elongation factor SelB, winged helix	Selenocysteine synthase N terminal
+PF06545	PF11392	82.76666666666667	.14959146921450342	Protein of unknown function (DUF1116)	Protein of unknown function (DUF2877)
+PF05069	PF06074	106.1728463323457	.08306791972262112	Phage virion morphogenesis family	Protein of unknown function (DUF935)
+PF04985	PF06995	121.66959982359063	.12417386867031133	Phage tail tube protein FII	Phage P2 GpU
+PF00343	PF02446	201.14101544590136	.08725939065043997	Carbohydrate phosphorylase	4-alpha-glucanotransferase
+PF05167	PF13740	207.47987172689835	.19236099690301242	Uncharacterised ACR (DUF711)	ACT domain
+PF09485	PF09704	150.92671299288946	.131915596557719	CRISPR-associated protein Cse2 (CRISPR_cse2)	CRISPR-associated protein (Cas_Cas5)
+PF04984	PF14065	103.63423416887414	.0821829602055761	Phage tail sheath protein	Protein of unknown function (DUF4255)
+PF04985	PF05489	123.16794706857333	.14558870652551395	Phage tail tube protein FII	Phage Tail Protein X
+PF04956	PF05101	112.12282102946331	.16834090232541427	TrbC/VIRB2 family	Type IV secretory pathway, VirB3-like protein
+PF09983	PF13835	78.31043277925312	.09658607172752634	Uncharacterized protein conserved in bacteria C-term(DUF2220)	Domain of unknown function (DUF4194)
+PF01496	PF01813	206.84869079042002	.12223476086175482	V-type ATPase 116kDa subunit family	ATP synthase subunit D
+PF08665	PF08747	69.44776334776333	.1505308894838386	PglZ domain	Domain of unknown function (DUF1788)
+PF06074	PF07030	96.07282286427024	.07589600017291386	Protein of unknown function (DUF935)	Protein of unknown function (DUF1320)
