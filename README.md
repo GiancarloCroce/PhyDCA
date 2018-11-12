@@ -1,8 +1,8 @@
-# PhyloDCA
+# PhyDCA
 
 ----
 
-**PhyloDCA** is *Julia* package that implements the inference of the *phylogenetic couplings* presented in the paper *"A multi-scale coevolutionary approach to predict protein-protein
+**PhyDCA** is *Julia* package that implements the inference of the *phylogenetic couplings* presented in the paper *"A multi-scale coevolutionary approach to predict protein-protein
 interactions"* by Giancarlo Croce, Thomas Gueudré, Maria Virginia Ruiz Cuevas, Matteo Figliuzzi, Hendrik Szurmant, Martin Weigt.
 
 The **phylogenetic profiling** is a classic bioinformatics technique in which:
@@ -11,7 +11,7 @@ The **phylogenetic profiling** is a classic bioinformatics technique in which:
 
 see [Phylogenetic profiling](https://en.wikipedia.org/wiki/Phylogenetic_profiling).
 
-We revisit the classical ideas of **phylogenetic profiling** by introducing the novel concept of **phylogenetic couplings**, which can be estimated via a global statistical modelling approach ( taking inspiration by *direct coupling analysis* [DCA](https://en.wikipedia.org/wiki/Direct_coupling_analysis) )
+We revisit the classical ideas of **phylogenetic profiling** by introducing the novel concept of **phyletic couplings**, which can be estimated via a global statistical modelling approach ( taking inspiration by *direct coupling analysis* [DCA](https://en.wikipedia.org/wiki/Direct_coupling_analysis) )
 
 The following Figure shows a  schematic representation of the inference of phylogenetic couplings
 
@@ -81,7 +81,7 @@ For example if we want to use the "phylogenetic couplings inferred with mean fie
 
 
 ### Output
-The output "ecoli_results" is a type PhyloDCA.PhyloOut  with 6 fields:
+The output "ecoli_results" is a type PhyDCA.PhyloOut  with 6 fields:
 
 * **list_domains**: a list of all proteins families
 * **list_species**: a list of all species 
