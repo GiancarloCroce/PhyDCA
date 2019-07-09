@@ -1,4 +1,4 @@
-module PhyloDCA
+module PhyDCA
 
 
 using GaussDCA
@@ -15,7 +15,7 @@ export
 	PhyloOut,
 
 	#function
-    phylodca,
+    phydca,
 	make_phylo_profile,
 	evaluate_distance,
 	compute_distance_matrix
