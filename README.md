@@ -1,8 +1,8 @@
-# PhyCA
+# PhyDCA
 
 ----
 
-**PhyCA** is *Julia* package that implements the inference of the *phyletic couplings* presented in the paper *"A multi-scale coevolutionary approach to predict protein-protein
+**PhyDCA** is *Julia* package that implements the inference of the *phyletic couplings* presented in the paper *"A multi-scale coevolutionary approach to predict protein-protein
 interactions"* by Giancarlo Croce, Thomas Gueudré, Maria Virginia Ruiz Cuevas, Victoria Keidel, Matteo Figliuzzi, Hendrik Szurmant, Martin Weigt (bioRxiv 558379; doi: https://doi.org/10.1101/558379).
 
 The **phylogenetic profiling** is a classic bioinformatics technique in which the joint presence or joint absence of two traits across large numbers of species is used to infer a meaningful biological connections
@@ -13,7 +13,7 @@ We revisit the classical ideas of **phylogenetic profiling** by introducing the 
 
 The following Figure shows a  schematic representation of the inference of phylogenetic couplings
 
-![figure_method](https://github.com/GiancarloCroce/PhyloDCA/blob/master/figure_1.png)
+![figure_method](https://github.com/GiancarloCroce/PhyDCA/blob/master/figure_1.png)
 
 
 ## Installation
@@ -59,10 +59,10 @@ A real documentation is not available yet, but we report here some usage example
 To run the program type 'julia' in the terminal and load the module:
 
 ```
-    julia> using PhyCA
+    julia> using PhyDCA
 ```
 
-The software provides two main functions ```phyca(filename_data::String, PhyloDCA.PhylogenticDistance)``` if the input file *"filename_data"* is in the first format  and ```phyca_matrix(filename_matrix::String, PhyloDCA.PhylogenticDistance)``` if the input file *"filename_matrix"* is a Phylogenetic Profile Matrix.
+The software provides two main functions ```phydca(filename_data::String, PhyloDCA.PhylogenticDistance)``` if the input file *"filename_data"* is in the first format  and ```phydca_matrix(filename_matrix::String, PhyloDCA.PhylogenticDistance)``` if the input file *"filename_matrix"* is a Phylogenetic Profile Matrix.
 
 
 Next is to decide which Phylogenetic Distances we want to use for the analysis (a list of all supported Phylogenetic Distances is in the next section). 
@@ -70,13 +70,13 @@ Next is to decide which Phylogenetic Distances we want to use for the analysis (
 For example if we want to use the "phyletic couplings inferred with mean field DCA", then run
 
 ```
-    julia> ecoli_results = phyca("phylo_data_ecoli.txt",mfDCA()) 
+    julia> ecoli_results = phydca("phylo_data_ecoli.txt",mfDCA()) 
 ```
 
 
 
 ### Output
-The output "ecoli_results" is a type PhyCA.PhyloOut  with 6 fields:
+The output "ecoli_results" is a type PhyDCA.PhyloOut  with 6 fields:
 
 * **list_domains**: a list of all proteins families
 * **list_species**: a list of all species 
