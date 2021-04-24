@@ -3,7 +3,7 @@
 ----
 
 **PhyDCA** is *Julia* package that implements the inference of the *phyletic couplings* presented in the paper *"A multi-scale coevolutionary approach to predict protein-protein
-interactions"* by Giancarlo Croce, Thomas Gueudré, Maria Virginia Ruiz Cuevas, Victoria Keidel, Matteo Figliuzzi, Hendrik Szurmant, Martin Weigt (bioRxiv 558379; doi: https://doi.org/10.1101/558379).
+interactions"* by Giancarlo Croce, Thomas Gueudré, Maria Virginia Ruiz Cuevas, Victoria Keidel, Matteo Figliuzzi, Hendrik Szurmant, Martin Weigt (https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006891).
 
 The **phylogenetic profiling** is a classic bioinformatics technique in which the joint presence or joint absence of two traits across large numbers of species is used to infer a meaningful biological connections
 
